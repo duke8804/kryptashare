@@ -93,7 +93,7 @@
 						android:drawablePadding="5dp"
 						android:paddingRight="55dp"
 						android:contentDescription="@string/auth_host_address"
-						>
+						android:textColorHint="#BE1E2D">
 						<requestFocus />
 					</EditText>
 					<ImageButton
