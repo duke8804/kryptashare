@@ -166,7 +166,8 @@
 					android:ems="10"
 					android:hint="@string/auth_username"
 					android:inputType="textNoSuggestions"
-					android:contentDescription="@string/auth_username"/>
+					android:contentDescription="@string/auth_username"
+					android:textColorHint="#BE1E2D" />
 		
 				<EditText
 				    android:id="@+id/account_password"
@@ -177,7 +178,7 @@
 					android:inputType="textPassword"
 					android:drawablePadding="5dp"
 					android:contentDescription="@string/auth_password"
-					/>
+					android:textColorHint="#BE1E2D" />
 		        
 				<TextView
 					android:id="@+id/auth_status_text"
