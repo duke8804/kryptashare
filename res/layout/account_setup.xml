@@ -188,7 +188,9 @@
             android:enabled="false"
             android:onClick="onOkClick"
             android:text="@string/setup_btn_connect"
-            android:contentDescription="@string/setup_btn_connect"/>
+            android:contentDescription="@string/setup_btn_connect"
+            android:background="#be1e2d"
+            android:textColor="#fff" />
 
         <Button
             android:id="@+id/welcome_link"
