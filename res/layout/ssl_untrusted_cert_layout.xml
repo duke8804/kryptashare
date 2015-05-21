@@ -439,21 +439,27 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/common_cancel" />
+            android:text="@string/common_cancel"
+			android:textColor="#fff"
+			android:background="@color/button_background_color" />
 
         <Button
             android:id="@+id/details_btn"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/ssl_validator_btn_details_see" />
+            android:text="@string/ssl_validator_btn_details_see"
+			android:textColor="#fff"
+			android:background="@color/button_background_color" />
 
         <Button
             android:id="@+id/ok"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/common_ok" />
+            android:text="@string/common_ok"
+			android:textColor="#fff"
+			android:background="@color/button_background_color" />
 
     </LinearLayout>
 

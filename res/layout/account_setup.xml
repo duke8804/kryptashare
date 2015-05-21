@@ -189,7 +189,7 @@
             android:onClick="onOkClick"
             android:text="@string/setup_btn_connect"
             android:contentDescription="@string/setup_btn_connect"
-            android:background="#be1e2d"
+            android:background="@color/button_background_color"
             android:textColor="#fff" />
 
         <Button

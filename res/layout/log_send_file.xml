@@ -49,12 +49,16 @@
         android:id="@+id/deleteLogHistoryButton"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="@string/prefs_log_delete_history_button" />
+        android:text="@string/prefs_log_delete_history_button"
+        android:textColor="#fff"
+        android:background="@color/button_background_color" />
 
     <Button
         android:id="@+id/sendLogHistoryButton"
         android:layout_width="match_parent"
        android:layout_height="50dp"
-        android:text="@string/log_send_history_button" />
+        android:text="@string/log_send_history_button"
+        android:textColor="#fff"
+        android:background="@color/button_background_color" />
 
 </LinearLayout>

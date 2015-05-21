@@ -121,7 +121,9 @@
 					android:drawablePadding="5dp"
 					android:gravity="center_vertical"
 					android:text="@string/auth_testing_connection"
-                    android:contentDescription="@string/auth_testing_connection"/>
+                    android:contentDescription="@string/auth_testing_connection"
+					android:textColorHint="#BE1E2D"
+					android:textColor="#BE1E2D" />
 		             
 				<CheckBox
 					android:id="@+id/oauth_onOff_check"

@@ -45,7 +45,9 @@
 		    android:layout_height="wrap_content"
 		    android:layout_gravity="bottom"
 		    android:layout_weight="1"
-		    android:text="@string/uploader_btn_new_folder_text" />
+		    android:text="@string/uploader_btn_new_folder_text"
+			android:textColor="#fff"
+			android:background="@color/button_background_color" />
 		
 		<Button
 		    android:id="@+id/uploader_choose_folder"
@@ -53,7 +55,9 @@
 		    android:layout_height="wrap_content"
 		    android:layout_gravity="bottom"
 		    android:layout_weight="1"
-		    android:text="@string/uploader_btn_upload_text" />
+		    android:text="@string/uploader_btn_upload_text"
+			android:textColor="#fff"
+			android:background="@color/button_background_color" />
 
 	</LinearLayout>
 </RelativeLayout>
